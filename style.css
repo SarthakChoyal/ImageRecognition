@@ -1,0 +1,59 @@
+*{
+    font-family: Geologica;
+}
+.button{
+    background: rgb(0, 166, 255);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    transform: scale(1);
+    transition: transform 330ms ease-in-out;
+}
+.button:hover{
+    background: rgb(0, 166, 255);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
+}
+
+.button2{
+    background: green;
+    border-radius: 15px;
+    padding: 10px;
+    border:none;
+    color: white;
+    transform: scale(1);
+    transition: transform 330ms ease-in-out;
+}
+.button2:hover{
+    background: green;
+    border-radius: 15px;
+    padding: 10px;
+    border:none;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
+}
+.heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+.name_of_objects{
+    font-size: 15px;
+    color: brown;
+}
+
+#result_object_name{
+    color: rgb(22, 22, 22);
+    background: rgba(0, 128, 255, 0.336);
+    border-radius: 5px;
+    padding: 2px;
+}
+#result_object_accuracy{
+    color: rgb(22, 22, 22);
+    background: rgba(0, 128, 255, 0.336);
+    border-radius: 5px;
+    padding: 2px;
+}
